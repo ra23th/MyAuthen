@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="MyAuthen.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    BackgroundColor="White"
+    mc:Ignorable="d">
+
+    <StackLayout Padding="20,0" Orientation="Vertical">
+        <Image
+            Aspect="AspectFill"
+            HeightRequest="80"
+            Source="header.png" />
+        <Entry
+            x:Name="UsernameEntry"
+            Margin="0,32,0,0"
+            Placeholder="Username" />
+        <Entry
+            x:Name="PasswordEntry"
+            IsPassword="True"
+            Placeholder="Password" />
+        <Button
+            Margin="0,22,0,0"
+            BackgroundColor="#5542cb"
+            Clicked="Login_clicked"
+            HeightRequest="50"
+            Text="Login"
+            TextColor="White" />
+
+        <StackLayout Orientation="Horizontal">
+            <Label
+                BackgroundColor="Blue"
+                HeightRequest="40"
+                Text="Delete"
+                VerticalOptions="Center"
+                WidthRequest="100">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="Delete_clicked" />
+                </Label.GestureRecognizers>
+            </Label>
+            <Label
+                BackgroundColor="Pink"
+                HeightRequest="40"
+                HorizontalOptions="EndAndExpand"
+                HorizontalTextAlignment="End"
+                Text="List Account"
+                VerticalOptions="Center"
+                WidthRequest="100">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="List_clicked" />
+                </Label.GestureRecognizers>
+            </Label>
+        </StackLayout>
+
+    </StackLayout>
+
+</ContentPage>
