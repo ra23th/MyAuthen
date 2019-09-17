@@ -5,6 +5,7 @@ using Xamarin.Forms.Xaml;
 namespace MyAuthen
 {
     public partial class App : Application
+    
     {
         public static string DatabasPath;
 
