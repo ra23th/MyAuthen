@@ -23,6 +23,7 @@ namespace MyAuthen.Droid
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
 
+            //copy database
             string databasePath = DatabaseAccess.GetDatabasePath("surachaila.db");
             LoadApplication(new App(databasePath));
         }
