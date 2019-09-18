@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="MyAuthen.ListAccountPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <ContentPage.Content>
+        <ListView
+            x:Name="CustomListView"
+            RowHeight="90"
+            SeparatorVisibility="None">
+            <ListView.Header>
+                <Image
+                    Aspect="AspectFill"
+                    HeightRequest="100"
+                    Source="xamarin_sqlite.png" />
+            </ListView.Header>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout HorizontalOptions="Center" Orientation="Vertical">
+                            <Label>
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span Text="username : " TextColor="#595a64" />
+                                        <Span
+                                            FontAttributes="Bold"
+                                            Text="title : "
+                                            TextColor="#141419" />
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+
+                            <Label>
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span Text="password: " TextColor="#595a64" />
+                                        <Span
+                                            FontAttributes="Bold"
+                                            Text="sub title"
+                                            TextColor="#141419" />
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+                            <Label>
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span
+                                            FontAttributes="Bold"
+                                            Text="Codemobiles "
+                                            TextColor="#47e490" />
+                                        <Span
+                                            FontSize="13"
+                                            Text="10 MIN AGO"
+                                            TextColor="#595a64" />
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </ContentPage.Content>
+</ContentPage>

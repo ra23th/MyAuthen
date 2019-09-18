@@ -15,7 +15,7 @@ namespace MyAuthen
 
             DatabasPath = databasPath;
 
-            MainPage = new NavigationPage(new MainPage());
+            MainPage = new NavigationPage(new ListAccountPage());
         }
 
         protected override void OnStart()

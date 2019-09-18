@@ -1,59 +1,80 @@
-﻿<?xml version="1.0" encoding="utf-8"  ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ContentPage
-    x:Class="MyAuthen.MainPage"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:d="http://xamarin.com/schemas/2014/forms/design"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
     BackgroundColor="White"
-    mc:Ignorable="d">
+    x:Class="MyAuthen.MainPage">
 
-    <StackLayout Padding="20,0" Orientation="Vertical">
+    <RelativeLayout>
         <Image
             Aspect="AspectFill"
-            HeightRequest="80"
-            Source="header.png" />
-        <Entry
-            x:Name="UsernameEntry"
-            Margin="0,32,0,0"
-            Placeholder="Username" />
-        <Entry
-            x:Name="PasswordEntry"
-            IsPassword="True"
-            Placeholder="Password" />
-        <Button
-            Margin="0,22,0,0"
-            BackgroundColor="#5542cb"
-            Clicked="Login_clicked"
-            HeightRequest="50"
-            Text="Login"
-            TextColor="White" />
+            Source="bg.jpg"
+            RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height}"
+            RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width}" />
 
-        <StackLayout Orientation="Horizontal">
-            <Label
-                BackgroundColor="Blue"
-                HeightRequest="40"
-                Text="Delete"
-                VerticalOptions="Center"
-                WidthRequest="100">
-                <Label.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="Delete_clicked" />
-                </Label.GestureRecognizers>
-            </Label>
-            <Label
-                BackgroundColor="Pink"
-                HeightRequest="40"
-                HorizontalOptions="EndAndExpand"
-                HorizontalTextAlignment="End"
-                Text="List Account"
-                VerticalOptions="Center"
-                WidthRequest="100">
-                <Label.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="List_clicked" />
-                </Label.GestureRecognizers>
-            </Label>
+
+        <StackLayout
+            VerticalOptions="Center"
+            RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height}"
+            RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width}"
+            Padding="20, 0"
+            Orientation="Vertical">
+            <Image
+                Margin="0, 40"
+                Source="header.png"
+                HeightRequest="100"
+                Aspect="AspectFill" />
+            <Entry
+                x:Name="UsernameEntry"
+                Margin="0, 32, 0, 0"
+                PlaceholderColor="Silver"
+                Placeholder="username" />
+            <Entry
+                IsPassword="True"
+                PlaceholderColor="Silver"
+                x:Name="PasswordEntry"
+                Placeholder="password" />
+            <Button
+                Margin="0, 22, 0, 0"
+                Text="Login"
+                TextColor="White"
+                Clicked="Login_clicked"
+                BackgroundColor="#5542cb"
+                HeightRequest="50" />
+            <StackLayout
+                Margin="0, 8, 0, 0"
+                Orientation="Horizontal">
+                <Label
+                    VerticalOptions="Center"
+                    HeightRequest="40"
+                    WidthRequest="100"
+                    TextColor="White"
+                    Text="Delete">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Delete_clicked" />
+                    </Label.GestureRecognizers>
+                </Label>
+                <Label
+                    TextColor="White"
+                    HorizontalTextAlignment="End"
+                    WidthRequest="100"
+                    VerticalOptions="Center"
+                    HorizontalOptions="EndAndExpand"
+                    HeightRequest="40"
+                    Text="List Account">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="List_clicked" />
+                    </Label.GestureRecognizers>
+                </Label>
+            </StackLayout>
         </StackLayout>
 
-    </StackLayout>
+
+
+
+    </RelativeLayout>
 
 </ContentPage>
