@@ -11,3 +11,4 @@ C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen\obj\Debug\netsta
 C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen\obj\Debug\netstandard2.0\MyAuthen.pdb
 C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen\obj\Debug\netstandard2.0\ListAccountPage.xaml.g.cs
 C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen\obj\Debug\netstandard2.0\JsonPage.xaml.g.cs

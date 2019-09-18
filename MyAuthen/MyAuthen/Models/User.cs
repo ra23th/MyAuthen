@@ -28,6 +28,7 @@ namespace MyAuthen.Models
             }
         }
 
+
         public User(string username,string password)
         {
             UserName = username;

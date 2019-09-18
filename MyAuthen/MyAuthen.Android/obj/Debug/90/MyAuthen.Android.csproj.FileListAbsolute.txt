@@ -521,6 +521,11 @@ C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen.Android\obj\Debu
 C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen.Android\obj\Debug\90\res\drawable\roundedcornerentry.xml
 C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen.Android\obj\Debug\90\android\src\md50ce5841399726af45633bd217c13a001\XEntryRenderer.java
 C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen.Android\bin\Debug\MyAuthen.dll.mdb
+C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen.Android\obj\Debug\90\linksrc\ImageCircle.Forms.Plugin.dll
+C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen.Android\obj\Debug\90\linksrc\Newtonsoft.Json.dll
+C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen.Android\obj\Debug\90\android\assets\ImageCircle.Forms.Plugin.dll
+C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen.Android\obj\Debug\90\android\assets\Newtonsoft.Json.dll
+C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen.Android\obj\Debug\90\android\src\md5ad349817c76b03b9d7836cf3a79439ae\ImageCircleRenderer.java
 C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen.Android\obj\Debug\90\flata\feb6087e0191cf281b497392e372901cf7fa16d4.stamp
 C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen.Android\obj\Debug\90\flata\8eb05a5a52ee08c57bef4dc72b1eadcaf387da94.stamp
 C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen.Android\obj\Debug\90\flata\433a851b57b3d0300fd463d71b900b77aef99bf1.stamp
@@ -545,8 +550,3 @@ C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen.Android\obj\Debu
 C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen.Android\obj\Debug\90\flata\9e0bd82ef5eccb846a19de41d48e68d201a7da25.flata
 C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen.Android\obj\Debug\90\flata\b1931bfb7142888235646163eed7b27caa052a2b.flata
 C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen.Android\obj\Debug\90\flata\6d9f368bc3a8afbf1a2f7232df2d43b57f5e6eed.flata
-C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen.Android\obj\Debug\90\linksrc\ImageCircle.Forms.Plugin.dll
-C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen.Android\obj\Debug\90\linksrc\Newtonsoft.Json.dll
-C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen.Android\obj\Debug\90\android\assets\ImageCircle.Forms.Plugin.dll
-C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen.Android\obj\Debug\90\android\assets\Newtonsoft.Json.dll
-C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen.Android\obj\Debug\90\android\src\md5ad349817c76b03b9d7836cf3a79439ae\ImageCircleRenderer.java
