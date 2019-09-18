@@ -9,6 +9,7 @@
     <ContentPage.Content>
         <ListView
             x:Name="CustomListView"
+            ItemTapped="ListViewTapped"
             RowHeight="90"
             SeparatorVisibility="None">
             <ListView.Header>
@@ -20,14 +21,17 @@
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
-                        <StackLayout HorizontalOptions="Center" Orientation="Vertical">
+                        <StackLayout
+                            BackgroundColor="{Binding BackgroundColor}"
+                            Orientation="Vertical"
+                            VerticalOptions="CenterAndExpand">
                             <Label>
                                 <Label.FormattedText>
                                     <FormattedString>
                                         <Span Text="username : " TextColor="#595a64" />
                                         <Span
                                             FontAttributes="Bold"
-                                            Text="title : "
+                                            Text="{Binding UserName}"
                                             TextColor="#141419" />
                                     </FormattedString>
                                 </Label.FormattedText>
@@ -39,7 +43,7 @@
                                         <Span Text="password: " TextColor="#595a64" />
                                         <Span
                                             FontAttributes="Bold"
-                                            Text="sub title"
+                                            Text="{Binding Password}"
                                             TextColor="#141419" />
                                     </FormattedString>
                                 </Label.FormattedText>

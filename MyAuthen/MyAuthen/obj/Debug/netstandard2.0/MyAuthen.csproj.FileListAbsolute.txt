@@ -1,0 +1,13 @@
+C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen\bin\Debug\netstandard2.0\MyAuthen.deps.json
+C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen\bin\Debug\netstandard2.0\MyAuthen.dll
+C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen\bin\Debug\netstandard2.0\MyAuthen.pdb
+C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen\obj\Debug\netstandard2.0\MyAuthen.csprojAssemblyReference.cache
+C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen\obj\Debug\netstandard2.0\MyAuthen.csproj.CoreCompileInputs.cache
+C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen\obj\Debug\netstandard2.0\MyAuthen.AssemblyInfoInputs.cache
+C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen\obj\Debug\netstandard2.0\MyAuthen.AssemblyInfo.cs
+C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen\obj\Debug\netstandard2.0\MyAuthen.dll
+C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen\obj\Debug\netstandard2.0\MyAuthen.pdb
+C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen\obj\Debug\netstandard2.0\ListAccountPage.xaml.g.cs
+C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen\obj\Debug\netstandard2.0\XamlC.stamp

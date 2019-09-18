@@ -1,21 +1,36 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+using MyAuthen.Models;
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 
 namespace MyAuthen
 {
-    [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ListAccountPage : ContentPage
     {
-        public ListAccountPage()
+
+
+        public ListAccountPage(List<User> result)
         {
             InitializeComponent();
-            CustomListView.ItemsSource = new String[10];
+
+            Title = "List Account";
+
+            // Dummy
+            //CustomListView.ItemsSource = new String[10];
+
+            CustomListView.ItemsSource = result;
         }
+
+        public void ListViewTapped(object sender, ItemTappedEventArgs events)
+        {
+            // de-select item
+            CustomListView.SelectedItem = null;
+        }
+
+
+
+
+
+
     }
 }
