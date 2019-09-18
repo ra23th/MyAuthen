@@ -1,32 +1,26 @@
-﻿using MyAuthen.Models;
-using MyAuthen.Services;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
-
+using MyAuthen.Models;
+using MyAuthen.Services;
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 
 namespace MyAuthen
 {
-    [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class JsonPage : ContentPage
     {
         public JsonPage()
         {
             InitializeComponent();
 
-            // lamda
-            Task.Run(async() =>
-            {
-                // backgroudbthread
-                var resual = await NetworkService.GetData(new User("admin", "password"));
-            }
-                );
+            CustomListView.ItemsSource = new String[100];
 
-            
+            // lamda
+            Task.Run(async () => {
+                // background thread
+                var result = await NetworkService.GetData(new User("admin", "password"));
+            });
+
         }
     }
 }

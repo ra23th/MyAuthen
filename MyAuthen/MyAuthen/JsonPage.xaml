@@ -7,34 +7,93 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
     <ContentPage.Content>
-        <ListView>
-            <ListView.Header>
-            <ContentView
-                        Padding="20">
-                <Image
-                            HeightRequest="100"
-                            Source="header.png"/>
-            </ContentView>
-            </ListView.Header>
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <ViewCell>
-                        <Grid>
-                            <Grid.RowDefinitions>
-                                <RowDefinition Height="auto" />
-                                <RowDefinition Height="auto" />
-                                <RowDefinition Height="160" />
-                                <RowDefinition Height="auto" />
-                            </Grid.RowDefinitions>
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="auto" />
-                                <ColumnDefinition Width="*" />
-                            </Grid.ColumnDefinitions>
-                        </Grid>
-                    </ViewCell>
+        <AbsoluteLayout>
 
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
+
+            <ActivityIndicator
+                x:Name="Loading"
+                AbsoluteLayout.LayoutBounds="0.5, 0.5, 50, 50"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                IsRunning="True" />
+
+            <ListView
+                x:Name="CustomListView"
+                AbsoluteLayout.LayoutBounds="0, 0, 1, 1"
+                AbsoluteLayout.LayoutFlags="All"
+                BackgroundColor="Black"
+                SeparatorVisibility="None">
+                <ListView.Header>
+                    <ContentView Padding="20">
+                        <Image HeightRequest="100" Source="header.png" />
+                    </ContentView>
+                </ListView.Header>
+                <ListView.RowHeight>
+                    <OnPlatform
+                        x:TypeArguments="x:Int32"
+                        Android="360"
+                        iOS="345" />
+                </ListView.RowHeight>
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid
+                                Padding="20"
+                                ColumnSpacing="19"
+                                RowSpacing="15">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="auto" />
+                                    <RowDefinition Height="auto" />
+                                    <RowDefinition Height="160" />
+                                    <RowDefinition Height="auto" />
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="auto" />
+                                    <ColumnDefinition Width="*" />
+                                </Grid.ColumnDefinitions>
+                                <Image
+                                    Grid.RowSpan="2"
+                                    Grid.Column="0"
+                                    HeightRequest="60"
+                                    Source="cmdev_logo.png" />
+                                <Label
+                                    Grid.Row="0"
+                                    Grid.Column="1"
+                                    LineBreakMode="TailTruncation"
+                                    MaxLines="1"
+                                    Text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+                                    TextColor="White" />
+                                <Label
+                                    Grid.Row="1"
+                                    Grid.Column="1"
+                                    LineBreakMode="TailTruncation"
+                                    MaxLines="2"
+                                    Text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+                                    TextColor="White" />
+                                <Image
+                                    Grid.Row="2"
+                                    Grid.Column="1"
+                                    Aspect="AspectFill"
+                                    Source="https://amp.businessinsider.com/images/5654150584307663008b4ed8-750-563.jpg">
+                                    <Image.HeightRequest>
+                                        <OnPlatform x:TypeArguments="x:Double">
+                                            <On Platform="iOS" Value="190" />
+                                            <On Platform="Android" Value="190" />
+                                        </OnPlatform>
+                                    </Image.HeightRequest>
+                                </Image>
+                                <BoxView
+                                    Grid.Row="3"
+                                    Grid.ColumnSpan="2"
+                                    HeightRequest="1"
+                                    Color="Black" />
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+
+        </AbsoluteLayout>
+
     </ContentPage.Content>
 </ContentPage>
