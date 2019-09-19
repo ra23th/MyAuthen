@@ -45,7 +45,10 @@ namespace MyAuthen
                 //success case
                 Seting.UserName = UserName;
                 Seting.Password = Password;
-                DisplayAlert("title", $"login:{UserName},{ Password}", "close");
+
+                Navigation.PushAsync(new JsonPage());
+                Navigation.RemovePage(this);
+                //DisplayAlert("title", $"login:{UserName},{ Password}", "close");
 
             }
             else

@@ -6,7 +6,7 @@ using System.Text;
 
 namespace MyAuthen.Helpers
 {
-    class Seting
+    public class Seting
     {
         private static ISettings AppSettings => CrossSettings.Current;
 

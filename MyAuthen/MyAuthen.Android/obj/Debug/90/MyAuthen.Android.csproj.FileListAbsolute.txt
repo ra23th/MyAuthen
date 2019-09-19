@@ -550,3 +550,11 @@ C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen.Android\obj\Debu
 C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen.Android\obj\Debug\90\flata\9e0bd82ef5eccb846a19de41d48e68d201a7da25.flata
 C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen.Android\obj\Debug\90\flata\b1931bfb7142888235646163eed7b27caa052a2b.flata
 C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen.Android\obj\Debug\90\flata\6d9f368bc3a8afbf1a2f7232df2d43b57f5e6eed.flata
+C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen.Android\obj\Debug\90\linksrc\System.Net.Http.Extensions.dll
+C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen.Android\obj\Debug\90\linksrc\System.Net.Http.Primitives.dll
+C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen.Android\obj\Debug\90\linksrc\System.Runtime.InteropServices.dll
+C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen.Android\obj\Debug\90\linksrc\System.Net.Primitives.dll
+C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen.Android\obj\Debug\90\android\assets\System.Net.Http.Extensions.dll
+C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen.Android\obj\Debug\90\android\assets\System.Net.Http.Primitives.dll
+C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen.Android\obj\Debug\90\android\assets\System.Net.Primitives.dll
+C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen.Android\obj\Debug\90\android\assets\System.Runtime.InteropServices.dll

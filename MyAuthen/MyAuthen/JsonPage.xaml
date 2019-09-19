@@ -3,25 +3,25 @@
     x:Class="MyAuthen.JsonPage"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
     xmlns:d="http://xamarin.com/schemas/2014/forms/design"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="Json Main Page"
     mc:Ignorable="d">
     <ContentPage.Content>
         <AbsoluteLayout>
 
 
-            <ActivityIndicator
-                x:Name="Loading"
-                AbsoluteLayout.LayoutBounds="0.5, 0.5, 50, 50"
-                AbsoluteLayout.LayoutFlags="PositionProportional"
-                IsRunning="True" />
+
 
             <ListView
-                x:Name="CustomListView"
+                x:Name="JsonListView"
                 AbsoluteLayout.LayoutBounds="0, 0, 1, 1"
                 AbsoluteLayout.LayoutFlags="All"
                 BackgroundColor="Black"
+                ItemTapped="OpenYoutube"
                 SeparatorVisibility="None">
+
                 <ListView.Header>
                     <ContentView Padding="20">
                         <Image HeightRequest="100" Source="header.png" />
@@ -43,40 +43,57 @@
                                 <Grid.RowDefinitions>
                                     <RowDefinition Height="auto" />
                                     <RowDefinition Height="auto" />
-                                    <RowDefinition Height="160" />
+                                    <RowDefinition Height="auto" />
                                     <RowDefinition Height="auto" />
                                 </Grid.RowDefinitions>
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="auto" />
                                     <ColumnDefinition Width="*" />
                                 </Grid.ColumnDefinitions>
-                                <Image
+
+
+                                <controls:CircleImage
                                     Grid.RowSpan="2"
                                     Grid.Column="0"
-                                    HeightRequest="60"
-                                    Source="cmdev_logo.png" />
+                                    Aspect="AspectFill"
+                                    Source="{Binding avatar_image}">
+                                    <controls:CircleImage.WidthRequest>
+                                        <OnPlatform x:TypeArguments="x:Double">
+                                            <On Platform="Android, iOS">60</On>
+                                            <On Platform="WinPhone">75</On>
+                                        </OnPlatform>
+                                    </controls:CircleImage.WidthRequest>
+                                    <controls:CircleImage.HeightRequest>
+                                        <OnPlatform x:TypeArguments="x:Double">
+                                            <On Platform="Android, iOS">60</On>
+                                            <On Platform="WinPhone">75</On>
+                                        </OnPlatform>
+                                    </controls:CircleImage.HeightRequest>
+                                </controls:CircleImage>
+
+
                                 <Label
                                     Grid.Row="0"
                                     Grid.Column="1"
                                     LineBreakMode="TailTruncation"
                                     MaxLines="1"
-                                    Text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+                                    Text="{Binding title}"
                                     TextColor="White" />
                                 <Label
                                     Grid.Row="1"
                                     Grid.Column="1"
                                     LineBreakMode="TailTruncation"
                                     MaxLines="2"
-                                    Text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+                                    Text="{Binding subtitle}"
                                     TextColor="White" />
                                 <Image
                                     Grid.Row="2"
                                     Grid.Column="1"
                                     Aspect="AspectFill"
-                                    Source="https://amp.businessinsider.com/images/5654150584307663008b4ed8-750-563.jpg">
+                                    Source="{Binding youtube_image}">
                                     <Image.HeightRequest>
                                         <OnPlatform x:TypeArguments="x:Double">
-                                            <On Platform="iOS" Value="190" />
+                                            <On Platform="iOS" Value="200" />
                                             <On Platform="Android" Value="190" />
                                         </OnPlatform>
                                     </Image.HeightRequest>
@@ -92,7 +109,11 @@
                 </ListView.ItemTemplate>
             </ListView>
 
-
+            <ActivityIndicator
+                x:Name="Loading"
+                AbsoluteLayout.LayoutBounds="0.5, 0.5, 50, 50"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                IsRunning="True" />
         </AbsoluteLayout>
 
     </ContentPage.Content>

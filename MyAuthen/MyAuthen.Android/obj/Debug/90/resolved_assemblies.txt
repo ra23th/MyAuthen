@@ -16,6 +16,9 @@ C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen.Android\obj\Debu
 C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen.Android\obj\Debug\90\android\assets\SQLitePCLRaw.provider.e_sqlite3.dll
 C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen.Android\obj\Debug\90\android\assets\System.Core.dll
 C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen.Android\obj\Debug\90\android\assets\System.dll
+C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen.Android\obj\Debug\90\android\assets\System.Net.Http.dll
+C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen.Android\obj\Debug\90\android\assets\System.Net.Http.Extensions.dll
+C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen.Android\obj\Debug\90\android\assets\System.Net.Http.Primitives.dll
 C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen.Android\obj\Debug\90\android\assets\System.Numerics.dll
 C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen.Android\obj\Debug\90\android\assets\System.Numerics.Vectors.dll
 C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen.Android\obj\Debug\90\android\assets\System.Runtime.dll
@@ -65,7 +68,6 @@ C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen.Android\obj\Debu
 C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen.Android\obj\Debug\90\android\assets\Xamarin.Forms.Platform.Android.dll
 C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen.Android\obj\Debug\90\android\assets\Xamarin.Forms.Platform.dll
 C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen.Android\obj\Debug\90\android\assets\Xamarin.Forms.Xaml.dll
-C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen.Android\obj\Debug\90\android\assets\System.Net.Http.dll
 C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen.Android\obj\Debug\90\android\assets\System.Drawing.Common.dll
 C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen.Android\obj\Debug\90\android\assets\System.Runtime.Serialization.dll
 C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen.Android\obj\Debug\90\android\assets\System.ServiceModel.Internals.dll
@@ -87,3 +89,5 @@ C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen.Android\obj\Debu
 C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen.Android\obj\Debug\90\android\assets\System.Reflection.Extensions.dll
 C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen.Android\obj\Debug\90\android\assets\System.Globalization.dll
 C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen.Android\obj\Debug\90\android\assets\Mono.Security.dll
+C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen.Android\obj\Debug\90\android\assets\System.Runtime.InteropServices.dll
+C:\Users\JRsura\source\repos\xamarin\MyAuthen\MyAuthen\MyAuthen.Android\obj\Debug\90\android\assets\System.Net.Primitives.dll
